@@ -57,11 +57,6 @@ if(isset($config['logo']) && $config['logo']) {
         				</div>
         			</div>
 
-              <div class="form-group">
-                <label><?= $Lang->get('THEME__FAVICON_URL') ?></label>
-                <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
-              </div>
-
             </div>
 
             <input name="data[_Token][key]" value="<?= $csrfToken ?>" type="hidden">
